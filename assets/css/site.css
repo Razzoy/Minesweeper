@@ -1,0 +1,33 @@
+
+#app{
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: max-content;
+    margin:auto;
+}
+
+.tile{
+    background-color: #555;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.revealed{
+    border-radius: 50%;
+}
+
+.green{
+    background-color: #32d632;
+    
+}
+
+.gold{
+    background-color: #FFD700;
+
+}
+
+.red{
+    background-color: #d82f00;
+}
